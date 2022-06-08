@@ -1,0 +1,9 @@
+{
+  "id": "com.yourdomain.airquality.service",
+  "description": "Air Quality Service",
+  "services": [
+    {
+      "name": "com.yourdomain.airquality.service"
+    }
+  ]
+}
