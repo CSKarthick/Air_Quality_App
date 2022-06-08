@@ -1,0 +1,10 @@
+{
+  "id": "com.domain.airquality",
+  "version": "0.0.2",
+  "vendor": "My Company",
+  "type": "web",
+  "main": "index.html",
+  "title": "airquality",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png"
+}
