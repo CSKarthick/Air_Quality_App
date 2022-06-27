@@ -1,0 +1,11 @@
+{
+  "id": "com.yourdomain.helloworld",
+  "version": "1.0.3",
+  "vendor": "My Company",
+  "type": "web",
+  "main": "firstpage.html",
+  "title": "new app",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "supportPortraitMode" : true
+}

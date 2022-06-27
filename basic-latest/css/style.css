@@ -1,0 +1,271 @@
+* {
+    transition: all 0.5s ease;
+}
+
+@font-face {
+    font-family: 'CerebriSansBook';
+    src:  url('../fonts/CerebriSansBook.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CerebriSansBold';
+    src:  url('../fonts/CerebriSansBold.ttf') format('truetype');
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "CerebriSansBook";
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-self: center;
+}
+
+.pa-0 {
+    padding: 0;
+}
+
+.mt-5 {
+    margin-top: 5%;
+}
+
+.mt-10 {
+    margin-top: 10%;
+}
+
+.mt-50 {
+    margin-top: 50%;
+}
+
+.header-sec {
+    padding: 4vh 1vh 3vh;
+    display: flex;
+}
+
+.header-sec .logo-1,
+.header-sec .logo-2 {
+    display: flex;
+    padding: 0;
+}
+
+.header-sec .logo-2 {
+    justify-content: flex-end;
+}
+
+.header-sec img {
+    height: 9vh;
+    align-self: center;
+}
+
+.header-sec .logo-2 img {
+    height: 5vh;
+}
+
+.content-sec {
+    background-color: #dbe0e4;
+    padding: 4vh 2vh;
+    margin: 1vh auto 2vh;
+    min-height: 78vh;
+    width: 92%;
+}
+
+.aq-text-div {
+    color: #052136;
+    letter-spacing: 10px;
+    border: 0.2vh solid #8a9ab1;
+    padding: 2vh 1vh;
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    position: relative;
+}
+
+.aq-text {
+    color: #052136;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 5vh;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.aq-text-div .aq-text-span {
+    letter-spacing: normal;
+    font-size: 2.6vh;
+    position: absolute;
+    bottom: -24px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 74%;
+    text-align: center;
+    background: #dbe0e4;
+}
+
+.cl-id,
+.cl-pwd {
+    padding: 2vh;
+    margin: 3vh 0;
+    color: #ffffff;
+}
+
+.cl-id {
+    background-color: #1e3c72;
+}
+
+.cl-pwd {
+    background-color: #6c6d9d;
+}
+
+.cl-id .form-control,
+.cl-pwd .form-control {
+    background-color: transparent;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    color: #ffffff;
+    height: auto;
+    font-family: 'CerebriSansBold';
+    font-size: 4vh;
+}
+
+select.form-control option {
+    color: #000;
+}
+
+label {
+    font-weight: normal;
+    font-size: 3vh;
+}
+
+.submit-btn {
+    font-family: 'CerebriSansBold';
+    font-size: 3vh;
+    height: auto;
+    padding: 2vh 0;
+    text-transform: uppercase;
+}
+
+.top-header-sec {
+    font-size: 3vh;
+    color: #ffffff;
+    background-color: #54a5b6;
+    padding: 20px 15px;
+}
+
+.top-header-sec * {
+    color: #ffffff;
+}
+
+.points-sec {
+    width: 100%;
+    margin: 0 auto 2vh;
+    float: none;
+    overflow: hidden;
+}
+
+/*.points-sec * {
+    font-size: 4vh;
+}*/
+
+.points-sec .aq-h1 {
+    font-family: 'CerebriSansBold';
+    font-size: 7vh;
+    margin-bottom: 2vh;
+}
+
+.points-sec h2 {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    width: 60%;
+    margin: 0 auto 2vh;
+}
+
+.points-sec h2 small {
+    color: #052136;
+    letter-spacing: 0.2vh;
+    display: block;
+    font-size: 2.5vh;
+}
+
+.points-sec h2 strong {
+    font-size: 6vh;
+    display: block;
+    margin-top: 1vh;
+}
+
+.points-sec h2 strong[data-status="0"] {
+    color: #ed1e24;
+}
+
+.points-sec h2 strong[data-status="1"] {
+    color: #74c044;
+}
+
+
+.indicate-sec {
+    display: flex;
+    justify-content: space-around;
+}
+
+.indicate-sec p {
+    font-size: 2vh;
+    text-align: center;
+    width: 100%;
+}
+
+.indicate-sec p strong small {
+    display: block;
+    font-size: 1.6vh;
+}
+
+.indicate-sec p span {
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+}
+
+.indicate-sec p:nth-child(1) span {
+    background-color: #74c044;
+}
+
+.indicate-sec p:nth-child(2) span {
+    background-color: #139044;
+}
+
+.indicate-sec p:nth-child(3) span {
+    background-color: #f3eb1a;
+}
+
+.indicate-sec:nth-child(2) p:nth-child(1) span {
+    background-color: #c65c28;
+}
+
+.indicate-sec:nth-child(2) p:nth-child(2) span {
+    background-color: #ed1e24;
+}
+
+.indicate-sec:nth-child(2) p:nth-child(3) span {
+    background-color: #a41e25;
+}
+
+.thanks-sec h1 {
+    font-size: 9vh;
+    font-family: 'CerebriSansBold';
+    text-transform: uppercase;
+}
+
+.thanks-sec h1 span {
+    display: block;
+    color: #002b4e;
+    line-height: 8vh;
+}
+
+.thanks-sec h1 span:nth-child(2) {
+    color: #69bd44;
+}
